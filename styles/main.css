@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+
+h1{
+    font-size: 30px;
+    font-family: Arial , sans-serif;
+    font-weight: normal;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 140px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Arial , sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+h3{
+    font-family: Arial , sans-serif;
+    font-size: 48px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top:15px;
+}
+
+h4{
+    font-family: Arial , sans-serif;
+    font-size: 27px;
+    color: #000000;
+    font-weight: bolder;
+    
+}
+
+h5{
+    font-family: Arial , sans-serif;
+    font-size: 17px;
+    color: #000000;
+    
+    text-transform: uppercase;
+}
+
+h5{
+    font-family: Arial , sans-serif;
+    font-size: 17px;
+    color: #000000;
+    
+    text-transform: uppercase;
+}
+.banner {
+    background: url(../img/background2.jpg) no-repeat center top / cover ;
+    height: 800px;
+    padding-bottom: 250px;
+    opacity: 1;
+}
+.banner2 {
+    background: url(../img/background2.jpg) no-repeat center top / cover ;
+    height: 800px;
+    padding-bottom: 250px;
+    opacity: 0.9;
+}
+.grey {
+    background: rgba(255, 255, 255, 0.637) ;
+    padding-bottom: 230px;
+    
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;    
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.navbar img {
+    width: 200px;
+    float: left;
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav li:last-child {
+    margin-right: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase; 
+    font-size: 14px;
+    font-family: Arial , sans-serif;
+}
+
+nav a:hover {
+    color: #af5a1d;
+    padding-bottom: 10px;
+    border-bottom: 3px solid  #fce38a;
+}
+
+.navbar__titles {
+    margin: 880 auto;
+    text-align: left;
+    width: 900px;
+    margin-top: 70px;
+}
+.navbar__titles2 {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color:#a72020;
+    content: "";
+    margin: 0 auto;
+    margin-top: 70px;
+}
+    
+.navbar__titles:after {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color:#a72020;
+    content: "";
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.nav_button {
+    margin: 0 auto;
+    text-align: center
+    margin-top: 250px;
+    width: 880px;
+    height: 220px;
+}
+
+.button {
+    display: inline-block;
+    font-family: Arial , sans-serif;
+    font-size: 34px;
+    text-decoration: none;
+    color: #000000;
+    padding: 30px 80px;
+    border: 5px solid #000000;
+    border-radius: 30px;
+   
+    
+
+}
+.icon {
+    display: inline-block;
+    font-family: Arial , sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 5px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background: rgb(252, 199, 28) no-repeat center top / cover ;
+}
+.titles {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 85px;
+}
+
+.titles_text {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 85px;
+}
+
+.titles:after {
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color:#f38181;
+    content: "";
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.aboutus p {
+    text-align: center;
+    width: 970px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #999999;
+    line-height: 24px;
+    margin-top: 45px;
+    margin-bottom: 95px;
+}
+
+.aboutus__img {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 85px;
+
+}
+
+.aboutus__img img {
+    margin-right: 30px;
+    width: 380px;
+    border-radius: 20px;
+    border: 0px #ccc solid;
+    box-shadow: 0 0 10px #444;
+}
+
+.services {
+    background-color: #f8f8f8;
+    padding-bottom: 130px;
+
+
+}
+
+.services__items {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.services__item {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.services__icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+
+}
+
+.services__titles {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    width: 280px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
