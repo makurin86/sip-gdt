@@ -15,7 +15,7 @@ h1{
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     font-family: Arial , sans-serif;
     font-weight: bold;
     color: #000000;
@@ -36,11 +36,12 @@ h4{
     color: #000000;
     font-weight: bolder;
     
+    
 }
 
 h5{
     font-family: Arial , sans-serif;
-    font-size: 17px;
+    font-size: 10px;
     color: #000000;
     
     text-transform: uppercase;
@@ -53,44 +54,149 @@ h5{
     
     text-transform: uppercase;
 }
-.banner {
+
+.banner{
+	
+    background: url(../img/background2.jpg) no-repeat;
+    height: 900px;
+    width: 100%;
+    
+	background-size: auto;
+    }
+.contacts{
    
-   background: url(../img/background2.jpg) no-repeat center top / cover;
-    height: 1000px;
-	background-size: auto;
+    position: left;
+   
+    margin-left: 5%;
+        height: 600px;
+        width: 100%;
+        
+        background-size: auto;
+        }
+.contacts text
+{
+    color: rgb(7, 7, 7);
+    padding-left: 300px;
 }
-.banner2 {
-  
-background: url(../img/background2.jpg) no-repeat center top / cover;
-    height: 1000px;
-	background-size: auto;
-}}
-.grey {
-    background: rgba(255, 255, 255, 0.637) ;
-    padding-bottom: 230px;
+.contacts a{
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+}
+.verh {
+    
+    height: 50px;
+    background-color: #444;
     
 }
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;    
+.verh li{
+    display: inline-block;
+
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+	text-transform: uppercase;
+	margin-left: 450;
+	font-family: arial, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px ;
+}
+.verh a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.container1 {
+    /*background-color: rgb(255, 153, 0);*/
+	width: 1500px;
+    position: left;
+    right: 50%;
+    margin-left: 5%;
+    height: 900px;
+    
+  
+
+}.container2 {
+   /*background-color: aqua;*/
+    width: 900px;
+    position: absolute;
+    top: 60px;
+    left: 30%;
+    
+    
 }
 
-.container {
-   background: url(../img/background2.jpg) no-repeat center top / cover;
-   height: 1000px;
-   background-size: auto;
-}
 
-.navbar img {
-    width: 200px;
-    float: left;
+.container1 img {
+    width: 150px;
+    float:left;
 }
-
-.navbar {
-    padding-top: 20px;
+.navbar{
+	padding-top: 10px;
+    float:left;
+    
 }
-
+nav{
+	
+	margin-top: 50px;
+}
+.navbar li{
+    margin: 880 auto;
+    text-align: top;
+    
+	margin-right: 10px;
+    display:inline-block  ;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 108, 108);
+    font-size: 20px;
+	text-transform: uppercase;
+	margin-right: 150;
+	font-family: arial, sans-serif;
+}
+.photo-container-2 {
+   
+    max-height: 1000px;
+    width: 100%;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+.photo-container-2 img {
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
+}
+.photo-container-2 .photo-1 {
+    position: relative;
+    animation: rotate 20s linear 5s infinite;
+}
+.photo-container-2 .photo-2 {
+    position: absolute;
+    top: 0;
+    animation: rotate 20s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+    }
+    50% {
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    } 
+    59.99999% {
+        transform: rotate(45deg) scale(3);
+        opacity: 0;
+        z-index: 1;
+    }   
+    60% {
+        opacity: 0;
+        z-index: -1;
+    }  
+    100% {
+        opacity: 1;
+    }  
+}
 nav {
     float: right;
     margin-top: 15px;
@@ -146,25 +252,69 @@ nav a:hover {
 }
 
 .nav_button {
-    margin: 0 auto;
+    margin: 10 auto;
     text-align: center
     margin-top: 250px;
     width: 880px;
-    height: 220px;
+   
 }
 
 .button {
+    background-color: #444;
+    margin: 50px;
     display: inline-block;
     font-family: Arial , sans-serif;
-    font-size: 34px;
+    font-size: 27px;
     text-decoration: none;
-    color: #000000;
+    color:white;
     padding: 30px 80px;
     border: 5px solid #000000;
     border-radius: 30px;
+    
    
     
 
+}
+.aboutus{
+    
+    height: 400px;
+    width: 1300px;
+    text-align:justify;
+}
+
+.aboutus__img {
+    margin: 50 auto;
+    text-align: center;
+    margin-bottom: 85px;
+
+}
+work{
+    height: 800px;
+}
+
+work .button{
+    background-color: #444;
+width: 800px;
+margin: 30px;
+color: white;
+}
+.aboutus__img img {
+   
+    margin-top: 60px;
+    margin-right: 50px;
+
+    width: 380px;
+    border-radius: 20px;
+    border: 0px #ccc solid;
+    box-shadow: 0 0 10px #444;
+}
+
+.banner2 {
+    
+    background: url(../img/background2.jpg) no-repeat center top / cover ;
+    height: 800px;
+    padding-bottom: 250px;
+    opacity: 0.9;
 }
 .icon {
     display: inline-block;
@@ -176,92 +326,7 @@ nav a:hover {
     border: 2px solid #000000;
     border-radius: 20px;
     background: rgb(252, 199, 28) no-repeat center top / cover ;
-}
-.titles {
-    width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 85px;
-}
-
-.titles_text {
-    width: 1200px;
-    margin: 0 auto;
-    text-align: left;
-    padding-top: 85px;
-}
-
-.titles:after {
-    display: block;
-    width: 60px;
-    height: 3px;
-    background-color:#f38181;
-    content: "";
-    margin: 0 auto;
-    margin-top: 70px;
-}
-
-.aboutus p {
-    text-align: center;
-    width: 970px;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    color: #999999;
-    line-height: 24px;
-    margin-top: 45px;
-    margin-bottom: 95px;
-}
-
-.aboutus__img {
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 85px;
-
-}
-
-.aboutus__img img {
-    margin-right: 30px;
-    width: 380px;
-    border-radius: 20px;
-    border: 0px #ccc solid;
-    box-shadow: 0 0 10px #444;
-}
-
-.services {
-    background-color: #f8f8f8;
-    padding-bottom: 130px;
-
-
-}
-
-.services__items {
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 60px;
-}
-
-.services__item {
-    margin: 0 auto;
-    text-align: center;
-    display: inline-block;
-    margin-right: 70px;
-}
-
-.services__icon {
-    display: inline-block;
-    vertical-align: top;
+    float:left;
     margin-right: 20px;
-
-}
-
-.services__titles {
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    line-height: 24px;
-    color: #999999;
-    width: 280px;
-    text-align: left;
-    display: inline-block;
-    vertical-align: top;
+  
 }
